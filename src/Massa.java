@@ -18,5 +18,6 @@ public class Massa {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
 }
 

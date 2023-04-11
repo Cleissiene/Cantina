@@ -10,7 +10,7 @@ public class Pedido {
 
     private double total;
 
-    public double precoPedido(){
+    public double calcula(){
         return total = massa.getValor() + (ingredientes.size()*2);
 
     }
@@ -37,18 +37,11 @@ public class Pedido {
         this.massa = massa;
     }
 
-    public List getIngredientes() {
+    public List<Ingrediente> getIngredientes() {
         return ingredientes;
     }
 
-    public void setIngredientes(List ingredientes) {
+    public void setIngredientes(List<Ingrediente> ingredientes) {
         this.ingredientes = ingredientes;
     }
-
-    public void calcula() {
-        //return
-
-    }
-
-
 }
