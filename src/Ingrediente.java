@@ -1,6 +1,11 @@
 public class Ingrediente {
 
-    public String nome;
+    private String nome;
+    private Double preco;
 
+    public Ingrediente(String nome, Double preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
 
 }
