@@ -10,6 +10,10 @@ public class Pedido {
 
     private double total;
 
+   // public int escolha() {
+        //return escolha(getIngredientes();
+
+   // }
     public double calcula(){
         return total = massa.getValor() + (ingredientes.size()*2);
 
